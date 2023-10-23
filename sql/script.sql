@@ -3,8 +3,7 @@ create database test_cluster;
 create table employe(
     idEmploye serial primary key, 
     nomEmploye varchar, 
-    prenomEmploye varchar,
     email varchar,
-    contact varchar,
-    dateNaissance date
+    dateNaissance date,
+    motDePasse varchar
 );
