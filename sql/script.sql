@@ -4,6 +4,6 @@ create table employe(
     idEmploye serial primary key, 
     nomEmploye varchar, 
     email varchar,
-    dateNaissance date,
+    dateEmbauche date,
     motDePasse varchar
 );
